@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-  h1 {
-    font-family: "Megrim", cursive;
+  h1,
+  h2 {
+    font-family: "Lexend Peta", sans-serif;
   }
-  h2,
   p,
   button {
   }
