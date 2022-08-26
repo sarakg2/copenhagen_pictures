@@ -17,7 +17,7 @@
       <div class="text-slate-800 md:grid">
         <div class="md:grid-cols-2">
           <h1
-            class="pt-7 pb-4 text-center text-2xl md:p-28 md:text-left md:text-6xl"
+            class="prose pt-7 pb-4 text-center text-2xl md:p-28 md:text-left md:text-6xl"
           >
             Københavnerbilleder
           </h1>
@@ -25,32 +25,34 @@
             En guide til hipsterfotos
           </h2>
           <img class="p-10" src="kobenhavnerbilleder-sten-simons.jpg" alt="" />
-          <p
-            class="pt-4 text-center text-sm uppercase md:p-20 md:pl-20 md:text-left md:text-7xl"
+          <h2
+            class="prose pt-4 text-center text-sm uppercase md:p-20 md:pl-16 md:text-left md:text-5xl"
           >
             Af Steen Simons
-          </p>
+          </h2>
         </div>
       </div>
 
       <div class="md:p-16">
-        <h2 class="prose pt-16 text-2xl font-semibold uppercase md:text-3xl">
+        <h2
+          class="prose pt-16 text-2xl font-semibold uppercase md:pb-10 md:text-5xl md:underline"
+        >
           fotografier
         </h2>
 
         <div class="flex gap-4 pt-11">
           <p class="text-s prose md:prose md:text-2xl">
-            Københavnerbilleder er de danske streetfotografers bibel. <br />
-            Det er en fusion mellem et kunstværk og en lærebog.
+            Københavnerbilleder er de danske streetfotografers bibel. Det er en
+            fusion mellem et kunstværk og en lærebog.
             <br />
           </p>
           <div class="">
-            <img class="md:w-3/12" src="kbh-by-night-3.jpg" alt="" />
+            <img class="md:w-5/12 md:pb-6" src="kbh-by-night-3.jpg" alt="" />
           </div>
         </div>
 
         <div class="flex pt-4">
-          <p class="text-s prose pb-10 pt-10 md:prose md:text-2xl">
+          <p class="text-s prose pb-10 pt-10 md:prose md:pb-20 md:text-2xl">
             Bogen gennemgår alle væsentlige aspekter af streetfotografering fra
             grundlæggende teknik til kreative eksperimenter. Alt sammen krydret
             med masser af inspirerende fotos. <br />
@@ -59,22 +61,26 @@
           </p>
         </div>
 
-        <section class="md:flex md:gap-56">
+        <section class="grid-cols-3 md:grid">
           <div>
             <img
-              class="md:w-full"
+              class="md:w-11/12"
               src="foraar-med-et-agfa-lebox-2-20.jpg"
               alt=""
             />
           </div>
 
           <div class="pt-4 md:pt-0">
-            <img class="md:w-8/12" src="nikkormat-ft2-orestad-c-6.jpg" alt="" />
+            <img
+              class="md:w-11/12"
+              src="nikkormat-ft2-orestad-c-6.jpg"
+              alt=""
+            />
           </div>
 
           <div class="pt-4 md:pt-0">
             <img
-              class="md:w-8/12 md:pt-0"
+              class="md:w-11/12 md:pt-0"
               src="nikkormat-ft2-remiseparken-7.jpg"
               alt=""
             />
@@ -136,10 +142,18 @@
           </div>
         </section>
 
+        <div class="pt-20 text-center">
+          <button
+            class="text-m mb-8 rounded-md bg-slate-800 p-6 uppercase text-slate-200 hover:bg-slate-200 hover:text-slate-800"
+          >
+            Køb nu
+          </button>
+        </div>
+
         <section class="md:mt-10 md:flex md:flex-row-reverse">
           <div class="pt-11">
             <h2 class="prose text-3xl uppercase">Steen</h2>
-            <h2 class="prose text-3xl uppercase">Simons</h2>
+            <h2 class="prose pb-3 text-3xl uppercase">Simons</h2>
             <p class="text-l">
               Steen Simons har en lang foto-karriere bag sig. Det hele startede
               i 00’erne, da han gik rundt i Pisserenden for at fotografere
@@ -154,15 +168,17 @@
             </p>
           </div>
 
-          <div class="pt-6 pb-6 md:pt-10">
+          <div class="pt-6 pb-6 md:pt-10 md:pb-20">
             <img class="md:w-8/12" src="sten_simons.jpg" alt="" />
           </div>
         </section>
 
-        <section class="md:flex md:gap-20 md:text-center">
+        <hr class="md:p-10" />
+
+        <section class="grid-cols-3 md:grid md:gap-5 md:text-center">
           <div class="pb-6">
             <img
-              class="md:w-12/12"
+              class="md:w-11/12"
               src="vinter-2021-med-lomo-smena-17.jpg"
               alt=""
             />
@@ -170,7 +186,7 @@
 
           <div class="pb-6">
             <img
-              class="md:w-12/12"
+              class="md:w-11/12"
               src="vinter-2021-med-lomo-smena-6.jpg"
               alt=""
             />
@@ -178,7 +194,7 @@
 
           <div class="">
             <img
-              class="md:w-6/12"
+              class="md:w-12/12"
               src="pinhole-objektiver-ved-eghjorten-3.jpg"
               alt=""
             />
@@ -187,15 +203,6 @@
       </div>
     </main>
 
-    <!--   
-    <div class="p-3">
-      <button
-        class="rounded-md bg-slate-200 p-3 text-base uppercase text-slate-700"
-      >
-        Køb nu
-      </button>
-    </div>
- -->
     <script type="module" src="./main.js"></script>
   </body>
 </html>
