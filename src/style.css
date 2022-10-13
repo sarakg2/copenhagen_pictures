@@ -4,12 +4,13 @@
 
 @layer base {
   h1,
-  h2 {
+  h2,
+  button {
     font-family: "Lexend Peta", sans-serif;
     color: #370a4b;
   }
-  p,
-  button {
-    color: #24002e;
+  h3,
+  p {
+    color: #370a4b;
   }
 }
