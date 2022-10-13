@@ -1,12 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
   h1,
   h2 {
     font-family: "Lexend Peta", sans-serif;
+    color: #370a4b;
   }
   p,
   button {
+    color: #24002e;
   }
 }
