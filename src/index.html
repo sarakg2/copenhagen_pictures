@@ -13,7 +13,7 @@
     />
   </head>
   <body class="bg-gradient-to-r from-purple-700 via-purple-300 to-yellow-200">
-    <main class="mx-auto p-4">
+    <main class="mx-auto p-4 md:p-10">
       <div class="md:grid">
         <div class="md:grid-cols-2">
           <img class="p-6 md:w-8/12" src="Artboard 1.svg" alt="" />
@@ -28,7 +28,7 @@
             En guide til hipsterfotos
           </h2>
           <h3
-            class="pt-4 text-center text-lg font-normal md:pr-10 md:pb-6 md:text-right md:text-3xl"
+            class="pt-4 text-center text-lg font-normal md:pr-10 md:pb-6 md:pt-8 md:text-right md:text-3xl"
           >
             Af Steen Simons
           </h3>
@@ -36,49 +36,42 @@
       </div>
       <div class="text-right md:pr-10">
         <button
-          class="md: mt-4 mb-8 rounded-xl bg-green-400 p-6 text-sm font-semibold uppercase shadow-2xl shadow-black md:p-10"
+          class="md: mt-4 mb-8 rounded-xl bg-green-400 p-6 text-sm font-semibold uppercase shadow-2xl shadow-black md:p-10 md:text-xl"
         >
           Køb nu
         </button>
       </div>
 
       <div
-        class="m-4 mb-10 mt-7 rounded-xl bg-purple-400 p-7 shadow-2xl shadow-purple-900"
+        class="m-4 mb-10 mt-14 rounded-xl bg-purple-900 pt-4 shadow-2xl shadow-black md:p-20"
       >
-        <p class="m-4 text-lg font-semibold md:text-3xl">
-          Københavnerbilleder er de danske streetfotografers bibel.
-        </p>
-        <p class="m-4 text-lg font-semibold md:text-3xl">
-          Det er en fusion mellem et kunstværk og en lærebog.
-        </p>
-
-        <p class="text-s m-4 md:text-3xl">
-          Bogen gennemgår alle væsentlige aspekter af streetfotografering fra
-          grundlæggende teknik til kreative eksperimenter. Alt sammen krydret
-          med masser af inspirerende fotos.
-        </p>
-
-        <p class="text-s m-4 mb-10 md:text-3xl">God læselyst!</p>
-
-        <img
-          class="rounded-3xl md:w-5/12 md:rounded-3xl"
-          src="kbh-by-night-3.jpg"
-          alt=""
-        />
-      </div>
-
-      <div class="md:p-16">
-        <!-- <div class="flex pt-4">
-          <p class="text-s pb-10 pt-10 md:pb-20 md:text-2xl">
+        <div class="md:flex">
+          <p
+            class="mr-8 ml-8 mt-4 mb-5 text-sm text-purple-100 md:p-2 md:text-2xl"
+          >
+            Københavnerbilleder er de danske streetfotografers bibel. Det er en
+            fusion mellem et kunstværk og en lærebog.
+            <br />
+            <br />
             Bogen gennemgår alle væsentlige aspekter af streetfotografering fra
             grundlæggende teknik til kreative eksperimenter. Alt sammen krydret
             med masser af inspirerende fotos. <br />
             <br />
             God læselyst!
           </p>
-        </div> -->
 
-        <section class="grid-cols-3 md:grid">
+          <div class="">
+            <img
+              class="rounded-3xl bg-purple-400 p-4 shadow-2xl shadow-black md:max-w-sm md:rounded-3xl"
+              src="kbh-by-night-3.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="p-2 md:p-20">
+        <section class="grid-cols-3 p-2 md:grid">
           <div>
             <img
               class="rounded-3xl md:w-11/12"
@@ -160,9 +153,9 @@
         </section>
 
         <section class="md:mt-10 md:flex md:flex-row-reverse">
-          <div class="pt-11">
-            <h2 class="text-3xl uppercase">Steen</h2>
-            <h2 class="pb-3 text-3xl uppercase">Simons</h2>
+          <div class="pt-20">
+            <h2 class="text-3xl">Steen</h2>
+            <h2 class="pb-3 text-3xl">Simons</h2>
             <p class="text-l">
               Steen Simons har en lang foto-karriere bag sig. Det hele startede
               i 00’erne, da han gik rundt i Pisserenden for at fotografere
@@ -211,5 +204,6 @@
     </main>
 
     <script type="module" src="./main.js"></script>
+    <footer class="bg-black"></footer>
   </body>
 </html>
