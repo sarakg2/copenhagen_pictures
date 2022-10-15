@@ -11,16 +11,18 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="bg-gradient-to-r from-purple-700 via-purple-300 to-yellow-200">
     <main class="mx-auto p-4 md:p-10">
       <div class="md:grid">
         <div class="md:grid-cols-2">
-          <img
-            class="rounded-2xl bg-purple-200 p-6 md:w-8/12"
-            src="Artboard 1.svg"
-            alt=""
-          />
+          <img class="rounded-2xl md:w-8/12" src="Artboard 1.svg" alt="" />
           <img class="md:max-w-2xl" src="bog_bg.png" />
           <h2
             class="pt-4 text-center text-3xl italic outline-double outline-green-400 md:pr-10 md:pt-5 md:pb-3 md:text-right md:text-5xl"
@@ -97,7 +99,7 @@
           </div>
         </section>
 
-        <section class="md:flex">
+        <section class="font-extrabold md:flex">
           <div>
             <div class="flex justify-center pt-4">
               <img width="30" src="star.png" alt="" />
@@ -106,9 +108,10 @@
               <img width="30" src="star.png" alt="" />
             </div>
 
-            <p class="p-3 text-sm italic">
+            <p class="p-3 text-sm italic md:pl-10">
               Teksten er underholdende, og billederne er sku’ flotte. Hvad mere
               skal man sige om en fotobog?
+              <br />
               <br />
               Kim Kloggaard, Fotojournalen.dk
             </p>
@@ -128,35 +131,40 @@
               siden 135-filmen kom på markedet, du kun har skudt digitalt eller
               er helt nybegynder, er der masser af tips og tricks i bogen.
               <br />
+              <br />
               Hanne Hovgaard, Berlingeren
             </p>
           </div>
-
           <div>
-            <div class="flex justify-center p-4">
-              <img width="30" src="star.png" alt="" />
-              <img width="30" src="star.png" alt="" />
-              <img width="30" src="star.png" alt="" />
-              <img width="30" src="star.png" alt="" />
-              <img width="30" src="star.png" alt="" />
-              <img width="30" src="star.png" alt="" />
+            <div class="">
+              <div class="flex justify-center p-4">
+                <img width="30" src="star.png" alt="" />
+                <img width="30" src="star.png" alt="" />
+                <img width="30" src="star.png" alt="" />
+                <img width="30" src="star.png" alt="" />
+                <img width="30" src="star.png" alt="" />
+                <img width="30" src="star.png" alt="" />
+              </div>
+              <p class="text-sm italic md:pl-28 md:pr-20">
+                Steen Simons kan det der - og han bliver bedre og bedre. Stens
+                tredje fotobog er klart den bedste - her er han for alvor i sit
+                rette element, meget bedre end “studiefotografering som
+                begyndere.” Tillykke - godt arbejde.
+                <br />
+                <br />
+                Volmer Hansen, Lukkertiden.dk
+              </p>
             </div>
-            <p class="p-3 text-sm italic md:pl-28">
-              Steen Simons kan det der - og han bliver bedre og bedre. Stens
-              tredje fotobog er klart den bedste - her er han for alvor i sit
-              rette element, meget bedre end “studiefotografering som
-              begyndere.” Tillykke - godt arbejde.
-              <br />
-              Volmer Hansen, Lukkertiden.dk
-            </p>
           </div>
         </section>
 
-        <section class="md:mt-10 md:flex md:flex-row-reverse">
+        <section
+          class="rounded-2xl bg-purple-900 shadow-2xl shadow-black md:mt-10 md:flex md:flex-row-reverse md:pl-6 md:pr-4"
+        >
           <div class="pt-20">
-            <h2 class="text-3xl">Steen</h2>
-            <h2 class="pb-3 text-3xl">Simons</h2>
-            <p class="text-l">
+            <h2 class="text-3xl text-yellow-100">Steen</h2>
+            <h2 class="pb-3 text-3xl text-yellow-100">Simons</h2>
+            <p class="text-l text-yellow-100 md:pr-24 md:pt-2">
               Steen Simons har en lang foto-karriere bag sig. Det hele startede
               i 00’erne, da han gik rundt i Pisserenden for at fotografere
               ungdommens forfald. Det ledte til en række udstillinger, og blev
@@ -175,7 +183,7 @@
           </div>
         </section>
 
-        <section class="grid-cols-3 md:grid md:gap-5 md:text-center">
+        <section class="grid-cols-3 md:grid md:gap-5 md:pt-20 md:text-center">
           <div class="pb-6">
             <img
               class="rounded-3xl md:w-11/12"
@@ -204,6 +212,14 @@
     </main>
 
     <script type="module" src="./main.js"></script>
-    <footer class="bg-purple-900 text-yellow-100">bla bla bla</footer>
+    <footer class="p-4 shadow md:p-6">
+      <ul
+        class="text-1xl mt-3 rounded-md text-center text-green-200 dark:text-gray-400 md:text-2xl"
+      >
+        <li>
+          <a href="#" class="mr-4 hover:underline md:mr-6">BACK TO TOP</a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>
